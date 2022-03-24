@@ -2,10 +2,28 @@ body{
     background-color: #00BFFF; 
 }
 
-img{
+.img_topo{
+    width: 100%;
+    text-align: center;
+}
+
+
+.img_corpo{
     width: 50%;
 }
 
-figure{
+.container{
+     width: 80%;
+     margin: auto;
+}
+
+h1{
     text-align: center;
+}
+
+p{
+
+    font-size: 1.25em;
+    text-align: justify;
+    text-indent: 35px;
 }
