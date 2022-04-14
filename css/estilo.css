@@ -1,15 +1,18 @@
 body{
-    background-color: #00BFFF; 
+    background-color: #191970;  
 }
 
 .img_topo{
     width: 100%;
+    height: 80%;   
     text-align: center;
+    border: 5px solid #4169E1;
 }
 
 
 .img_corpo{
     width: 50%;
+    border: 5px solid #4169E1;
 }
 
 .container{
@@ -19,6 +22,8 @@ body{
 
 h1{
     text-align: center;
+    color: #7B68EE;
+    font-weight: bolder;
 }
 
 p{
@@ -26,4 +31,5 @@ p{
     font-size: 1.25em;
     text-align: justify;
     text-indent: 35px;
+    color: #7B68EE;
 }
