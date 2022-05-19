@@ -21,6 +21,7 @@ h1{
     text-align: center;
     color: #7B68EE;
     font-weight: bolder;
+    font-size: 175%;
 }
 
 .img_topo{
@@ -55,7 +56,8 @@ p{
     text-align: justify;
     text-indent: 35px;
     color: #7B68EE;
-    line-height: 1em;
+    line-height: 2em;
+    text-align: center;
 }
 
 .parag_letras > p{
@@ -74,7 +76,7 @@ p{
 
 .botao p{
     padding-top: 9px;
-
+    text-align: center;
 }
 
 footer{
