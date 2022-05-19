@@ -2,8 +2,25 @@ html{
     scroll-behavior: smooth;
 }
 
+.menu{
+    background-color: rgba(70,130,180,0.6);
+    padding: 2%;
+    text-align: center;
+}
+
+.itens_menu{
+    text-align: center;
+}
+
+
 body{
     background-color: #191970;  
+}
+
+h1{
+    text-align: center;
+    color: #7B68EE;
+    font-weight: bolder;
 }
 
 .img_topo{
@@ -15,8 +32,15 @@ body{
 
 
 .img_corpo{
-    width: 50%;
+    width: 100%;
     border: 5px solid #4169E1;
+}
+
+figure{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
 }
 
 .container{
@@ -24,11 +48,6 @@ body{
      margin: auto;
 }
 
-h1{
-    text-align: center;
-    color: #7B68EE;
-    font-weight: bolder;
-}
 
 p{
 
@@ -36,6 +55,7 @@ p{
     text-align: justify;
     text-indent: 35px;
     color: #7B68EE;
+    line-height: 1em;
 }
 
 .parag_letras > p{
@@ -55,4 +75,20 @@ p{
 .botao p{
     padding-top: 9px;
 
+}
+
+footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgba(70,130,180,0.6);
+}
+
+footer p{
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.center{
+    text-align: center;
 }
