@@ -10,8 +10,27 @@ html{
 
 .itens_menu{
     text-align: center;
+    line-height: 2em;
 }
 
+.itens_menu a:link, .itens_menu a:visited{
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.itens_menu a:hover{
+    padding: 0.8%;
+    background-color: rgba(10, 134, 250, 0.3);
+}
+
+.itens_menu a:active {
+    color: black;
+}
+
+#veja_mais a:link, #veja_mais a:visited{
+    color: #FFDEAD;
+    font-size: 1.2em;   
+}
 
 body{
     background-color: #191970;  
@@ -58,7 +77,6 @@ figure{
      margin: auto;
 }
 
-
 p{
 
     font-size: 1.25em;
@@ -78,9 +96,10 @@ p{
 .botao{
     width: 130px;
     height: 50px;
-    background-color: black;
-    color: #fff;
-
+    background-color: rgba(70,130,180,0.6);
+    color: aqua;
+    
+    text-decoration: none;
 }
 
 .botao p{
@@ -95,7 +114,7 @@ footer{
 }
 
 footer p{
-    color: #fff;
+    color: rgb(31, 75, 133);
     font-size: 1em;
     font-weight: bold;
 }
@@ -104,6 +123,22 @@ footer p{
     text-align: center;
 }
 
-a link{
-    color: deepskyblue;
+a:link {
+    color: #0000FF;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #4169E1;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #4682B4;
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+    text-decoration: none;
 }
