@@ -142,3 +142,14 @@ a:active {
     color: blue;
     text-decoration: none;
 }
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 10px groove #4169E1; 
+    padding-top: 1% ;   
+    padding-bottom: 1%;
+}
